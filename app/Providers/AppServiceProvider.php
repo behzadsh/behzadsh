@@ -1,4 +1,4 @@
-<?php namespace App\Providers;
+<?php namespace Behzadsh\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Routing\Stack\Builder as Stack;
@@ -12,10 +12,10 @@ class AppServiceProvider extends ServiceProvider {
 	 * @var array
 	 */
 	protected $middleware = [
-		'auth' => 'App\Http\Middleware\AuthMiddleware',
-		'auth.basic' => 'App\Http\Middleware\BasicAuthMiddleware',
-		'csrf' => 'App\Http\Middleware\CsrfMiddleware',
-		'guest' => 'App\Http\Middleware\GuestMiddleware',
+		'auth' => 'Behzadsh\Http\Middleware\AuthMiddleware',
+		'auth.basic' => 'Behzadsh\Http\Middleware\BasicAuthMiddleware',
+		'csrf' => 'Behzadsh\Http\Middleware\CsrfMiddleware',
+		'guest' => 'Behzadsh\Http\Middleware\GuestMiddleware',
 	];
 
 	/**
@@ -24,13 +24,13 @@ class AppServiceProvider extends ServiceProvider {
 	 * @var array
 	 */
 	protected $stack = [
-		'App\Http\Middleware\MaintenanceMiddleware',
+		'Behzadsh\Http\Middleware\MaintenanceMiddleware',
 		'Illuminate\Cookie\Middleware\Guard',
 		'Illuminate\Cookie\Middleware\Queue',
 		'Illuminate\Session\Middleware\Reader',
 		'Illuminate\Session\Middleware\Writer',
 		'Illuminate\View\Middleware\ErrorBinder',
-		'App\Http\Middleware\CsrfMiddleware',
+		'Behzadsh\Http\Middleware\CsrfMiddleware',
 	];
 
 	/**
