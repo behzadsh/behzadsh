@@ -24,4 +24,9 @@ class User extends Model implements UserContract, CanResetPasswordContract {
 	 */
 	protected $hidden = ['password', 'remember_token'];
 
+	public function posts()
+	{
+		return $this->hasMany('Post');
+	}
+
 }
