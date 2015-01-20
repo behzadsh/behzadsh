@@ -7,7 +7,7 @@
 		<link href='//fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT' rel='stylesheet' type='text/css'/>
 		<link href="{{ asset(theme_path('css/style.css')) }}" rel="stylesheet" media="screen">
 		<link href="{{ asset(theme_path('css/style.rtl.css')) }}" rel="stylesheet" media="screen">
-		<link href="{{ asset('assets/highlight/styles/github.css') }}" rel="stylesheet" media="screen">
+		<link href="{{ asset('assets/highlight/styles/tomorrow-night.css') }}" rel="stylesheet" media="screen">
 		<script type="text/javascript" src="{{ asset('assets/highlight/highlight.pack.js') }}"></script>
 		<script type="text/javascript">hljs.initHighlightingOnLoad();</script>
 	</head>

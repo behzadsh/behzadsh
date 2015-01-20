@@ -173,12 +173,19 @@ pre code {
   padding: .5em;
   color: #000;
   background: #f8f8ff;
-  font-family: Inconsolata,Monaco,"Lucida Console",monospace;
+  font-family: Monaco,"Lucida Console",monospace !important;
   font-size: 13px;
   line-height: 23px;
   margin: 0;
   white-space: pre;
 }
+
+.hljs-comment {
+  font-family: Monaco,"Lucida Console",monospace !important;
+  font-size: 13px;
+  line-height: 23px;
+}
+
 pre {
   border: 1px solid #d0d0d0;
   color: #002166;
