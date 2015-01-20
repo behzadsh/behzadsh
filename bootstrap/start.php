@@ -24,12 +24,12 @@ $app = new Illuminate\Foundation\Application;
 |
 */
 
-$env = $app->detectEnvironment(array(
+$env = $app->detectEnvironment([
 
-	'local' => array('your-machine-name'),
-	'dev' => array('wardrobe-core.dev'),
+	'local' => ['Behzads-Mac-Pro.local'],
+	'live'  => ['srv26139.screweb.com']
 
-));
+]);
 
 /*
 |--------------------------------------------------------------------------
@@ -42,7 +42,7 @@ $env = $app->detectEnvironment(array(
 |
 */
 
-$app->bindInstallPaths(require __DIR__.'/paths.php');
+$app->bindInstallPaths(require __DIR__ . '/paths.php');
 
 /*
 |--------------------------------------------------------------------------
@@ -55,9 +55,9 @@ $app->bindInstallPaths(require __DIR__.'/paths.php');
 |
 */
 
-$framework = $app['path.base'].'/vendor/laravel/framework/src';
+$framework = $app['path.base'] . '/vendor/laravel/framework/src';
 
-require $framework.'/Illuminate/Foundation/start.php';
+require $framework . '/Illuminate/Foundation/start.php';
 
 /*
 |--------------------------------------------------------------------------
