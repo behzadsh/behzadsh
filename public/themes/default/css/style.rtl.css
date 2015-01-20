@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Nazanin';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/Nazanin.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'BMitra';
+    src: url(../fonts/Mitra.woff) format('woff');
+}
+
+body {
+    direction: rtl;
+    font-family: 'Nazanin', tahoma, arial, helvetica;
+}
+
+h1, h2, h3, h4, h5, h6, nav ul li a {
+    font-family: 'BMitra', 'Nazanin', serif, Arial, Helvetica, Sans-Serif;
+}
+
+pre code, code, pre {
+    direction: ltr;
+}
+
+p {
+    text-align: right;
+    font-size: 18px;
+    color: #666;
+    font-family: 'Nazanin', serif;
+    line-height: 1.8em;
+}
+
+blockquote {
+    text-align: right;
+}
+
+ul.archive li {
+    text-align: right;
+}
+
+h1.page-title {
+    text-align: right;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h6.title-description {
+    color: #ccc;
+    text-align: right;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    margin-top: -10px;
+}
+
+.brand {
+    margin-bottom: 0.67em;
+}
+
+p > code, ul li > code {
+    font-size: 12px;
+    background-color: #f8f8f8;
+    border : 1px solid #DDD;
+    padding : 3px;
+}
+
+pre code .hljs-comment {
+    font-family: 'Nazanin', monospace, tahoma, arial, helvetica;
+}
+
+ul li {
+    list-style: square;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    line-height: 1.8em;
+}
