@@ -11,6 +11,7 @@
 		{{ $post->parsed_content }}
 
 		@include(theme_view('inc.tags'))
+		{{ Disqus::comments() }}
 	</section>
 @stop
 
