@@ -65,10 +65,6 @@ p > code, ul li > code {
     padding : 3px;
 }
 
-pre code .hljs-comment {
-    font-family: 'Nazanin', monospace, tahoma, arial, helvetica;
-}
-
 ul li {
     list-style: square;
     font-size: 16px;
