@@ -50,7 +50,7 @@ nav li {
   margin-right: 10px;
 }
 nav li a {
-  color: #ccc;
+  color: #999;
 }
 
 
@@ -110,7 +110,7 @@ ul.archive li span {
   float: right;
   font-size: 14px;
   padding-left: 10px;
-  color: #ccc;
+  color: #999;
 }
 
 .post {
@@ -131,7 +131,7 @@ ul.archive li span {
   font-size: 14px;
   text-align: center;
   padding-left: 10px;
-  color: #ccc;
+  color: #999;
   margin-bottom: 20px;
 }
 .pagination {
