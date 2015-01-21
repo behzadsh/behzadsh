@@ -33,12 +33,8 @@
     "post-install-cmd": [
       "php artisan optimize"
     ],
-    "pre-update-cmd": [
-      "php artisan clear-compiled"
-    ],
     "post-update-cmd": [
       "php artisan optimize",
-      "php artisan asset:publish wardrobe/core"
     ],
     "post-create-project-cmd": [
       "php artisan key:generate",
