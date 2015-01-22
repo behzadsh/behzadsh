@@ -1,5 +1,21 @@
 @font-face {
-    font-family: 'Nazanin';
+    font-family: Nasim;
+    src: url("../fonts/nassim-regular.eot");
+    src: url("../fonts/nassim-regular.woff") format("woff"), url("../fonts/nassim-regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Nasim;
+    src: url("../fonts/nassim-bold.eot");
+    src: url("../fonts/nassim-bold.woff") format("woff"), url("../fonts/nassim-bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nasim';
     font-style: normal;
     font-weight: 300;
     src: url(../fonts/Nazanin.woff) format('woff');
@@ -12,7 +28,7 @@
 
 body {
     direction: rtl;
-    font-family: 'Nazanin', tahoma, arial, helvetica;
+    font-family: 'Nasim', tahoma, arial, helvetica;
 }
 
 h1, h2, h3, h4, h5, h6, nav ul li a {
@@ -27,7 +43,7 @@ p {
     text-align: right;
     font-size: 18px;
     color: #666;
-    font-family: 'Nazanin', serif;
+    font-family: 'Nasim', serif;
     line-height: 1.8em;
 }
 
