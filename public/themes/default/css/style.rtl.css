@@ -89,3 +89,13 @@ ul li {
     margin-top: 10px;
     line-height: 1.8em;
 }
+
+div.read-more {
+    text-align: left;
+}
+
+div.read-more a {
+    padding: 9px 10px 7px 10px;
+    border-radius: 5px;
+    border: 2px solid #2ba6cb;
+}
