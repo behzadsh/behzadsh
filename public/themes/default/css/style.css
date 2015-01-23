@@ -325,6 +325,11 @@ pre .tex .formula {
   opacity: 0.5;
 }
 
+.nohighlight {
+  background-color: #1d1f21;
+  color: #fff;
+}
+
 .content img{
   width: 100%;
 }
