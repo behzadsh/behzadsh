@@ -8,8 +8,6 @@
 		<link href="{{ asset(theme_path('css/style.css')) }}" rel="stylesheet" media="screen">
 		<link href="{{ asset(theme_path('css/style.rtl.css')) }}" rel="stylesheet" media="screen">
 		<link href="{{ asset('assets/highlight/styles/tomorrow-night.css') }}" rel="stylesheet" media="screen">
-		<script type="text/javascript" src="{{ asset('assets/highlight/highlight.pack.js') }}"></script>
-		<script type="text/javascript">hljs.initHighlightingOnLoad();</script>
 	</head>
 	<body>
 		<div class="container">
@@ -38,5 +36,7 @@
       			<p>قدرت گرفته از <a href="http://wardrobecms.com">Wardrobe</a></p>
 			</footer>
 		</div>
+		<script type="text/javascript" src="{{ asset('assets/highlight/highlight.pack.js') }}"></script>
+		<script type="text/javascript">hljs.initHighlightingOnLoad();</script>
 	</body>
 </html>
