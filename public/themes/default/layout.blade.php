@@ -38,5 +38,6 @@
 		</div>
 		<script type="text/javascript" src="{{ asset('assets/highlight/highlight.pack.js') }}"></script>
 		<script type="text/javascript">hljs.initHighlightingOnLoad();</script>
+		{{ $_ENV['GOOGLE_ANALYTICS'] }}
 	</body>
 </html>
