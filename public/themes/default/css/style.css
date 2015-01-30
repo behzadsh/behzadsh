@@ -123,6 +123,11 @@ ul.archive li span {
 }
 .post blockquote {
   font-style: italic;
+  background-color: #eeeeee;
+  border-right: 3px solid #cccccc;
+}
+.post blockquote p {
+  padding: 5px 15px 5px 10px;
 }
 .post h1 {
   margin-bottom: 0;
@@ -336,6 +341,17 @@ pre .tex .formula {
   width: 100%;
 }
 
+div.small, div.medium {
+  text-align: center;
+}
+
+div.small img {
+  max-width: 150px;
+}
+
+div.medium img {
+  max-width: 500px;
+}
 
 @media (max-width : 961px) and (min-width: 600px) {
   .container{
