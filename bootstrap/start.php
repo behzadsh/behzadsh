@@ -26,8 +26,8 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment([
 
-	'local' => ['Behzads-Mac-Pro.local'],
-	'live'  => ['srv26139.screweb.com']
+	'local' => ['*.local', 'Behzad*'],
+	'live'  => ['*.com']
 
 ]);
 
