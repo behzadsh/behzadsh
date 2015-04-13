@@ -22,6 +22,7 @@
 					<ul>
 						<li><a href="{{ Wardrobe::route('posts.archive') }}">پست ها</a></li>
 						<li><a href="{{ Wardrobe::route('posts.rss') }}">فید</a></li>
+                                                <li><a href="{{ URL::to('http://codecasts.ir') }}" target="_blank">کدکستز</a></li>
 						<li><a href="{{ URL::to('http://laratalks.com/?lara-campaign=blog') }}" target="_blank">لاراتاکز</a></li>
 						<li><a href="{{ URL::to('http://twitter.com/behzad_sh') }}" target="_blank">توییتر</a></li>
 						<li><a href="{{ URL::to('http://github.com/behzadsh') }}" target="_blank">گیت هاب</a></li>

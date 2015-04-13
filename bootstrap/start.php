@@ -27,7 +27,7 @@ $app = new Illuminate\Foundation\Application;
 $env = $app->detectEnvironment([
 
 	'local' => ['*.local', 'Behzad*'],
-	'live'  => ['*.com']
+	'live'  => ['*.com', 'Shabani']
 
 ]);
 
