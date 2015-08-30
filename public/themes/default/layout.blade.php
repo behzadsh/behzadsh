@@ -14,6 +14,7 @@
     <link href="{{ asset(theme_path('css/style.css')) }}" rel="stylesheet" media="screen">
     <link href="{{ asset(theme_path('css/style.rtl.css')) }}" rel="stylesheet" media="screen">
     <link href="{{ asset('assets/highlight/styles/tomorrow-night.css') }}" rel="stylesheet" media="screen">
+    @include(theme_view('inc.sharethis'))
 </head>
 <body>
 <div class="container">
