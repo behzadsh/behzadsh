@@ -379,10 +379,15 @@ div.medium img {
 /* SHARE THIS */
 div.sharethis {
     direction: ltr;
-    padding-top: 10px;
+    margin: 10px 0px 25px;
+    text-align: center;
 }
 
-div.sharethis:before {
+div.sharethis > div.sharethis-container {
+    padding: 10px 0;
+}
+
+div.sharethis:before, div.sharethis:after {
     display: block;
     content: ' ';
     height: 1px;
