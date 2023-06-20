@@ -13,5 +13,7 @@
 
 
 
+<!--
 <img align="left" src="https://github-readme-stats.vercel.app/api?username=behzadsh&count_private=true&show_icons=true&theme=aura_dark" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=behzadsh&theme=aura_dark&langs_count=3" />
+-->
